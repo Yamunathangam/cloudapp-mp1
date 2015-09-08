@@ -51,7 +51,9 @@ public class MP1 {
 
     public String[] process() throws Exception {
         String[] ret = new String[20];
-       
+        StringTokenizer st=new StringTokenizer(inputFileName);
+        while(st.hasNextToken())
+          System.out.println(st.nextToken())
         //TODO
 
         return ret;
